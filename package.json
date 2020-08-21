@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --watch ./index.js --exec jest"
+    "test": "nodemon --watch ./index.test.js --exec jest"
   },
   "author": "",
   "license": "ISC",
