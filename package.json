@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --watch ./index.test.js --exec jest"
+    "test": "nodemon --watch *.test.js --exec jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.20.0",
     "jest": "^26.4.1",
     "nodemon": "^2.0.4"
   }
