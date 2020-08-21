@@ -1,0 +1,15 @@
+{
+  "name": "jestbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --watch ./index.js --exec jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.1",
+    "nodemon": "^2.0.4"
+  }
+}
